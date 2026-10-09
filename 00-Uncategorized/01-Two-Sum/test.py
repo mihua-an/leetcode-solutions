@@ -1,4 +1,4 @@
-from solution import Solution
+from brute_force.solution import Solution
 
 
 sol = Solution()

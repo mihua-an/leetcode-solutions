@@ -1,6 +1,6 @@
 #include <iostream>
 #include <vector>
-#include "solution.cpp"
+#include "brute_force/solution.cpp"
 
 using namespace std;
 int main() {
