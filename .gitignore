@@ -1,0 +1,25 @@
+# C++ 編譯產物
+*.o
+*.out
+*.exe
+*.obj
+*.dSYM/
+
+# 所有測試檔案
+test
+test.*
+test_*
+*_test.*
+*_test
+
+# Python 快取
+__pycache__/
+*.pyc
+*.pyo
+
+# Python 虛擬環境
+.venv/
+venv/
+
+# macOS 系統檔案
+.DS_Store
