@@ -1,0 +1,7 @@
+{
+    "github.copilot.enable": {
+        "*": false
+    },
+    "editor.inlineSuggest.enabled": false,
+    "editor.suggest.preview": false
+}
