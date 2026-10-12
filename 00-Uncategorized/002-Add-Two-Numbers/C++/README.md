@@ -1,0 +1,5 @@
+#solution1
+把每個ListNode的同單位數字提出來做計算 再存入dummy 再輸出dummy
+
+#solution2
+把l1直接當輸出ans 把l2加進去l1再輸出ans
