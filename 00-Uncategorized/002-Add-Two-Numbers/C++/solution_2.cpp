@@ -14,6 +14,9 @@ public:
     ListNode* addTwoNumbers(ListNode* l1, ListNode* l2) {
         int carry = 0;
         ListNode* ans = l1;             // ans 儲存了l1的位置
+        if (!l1) {
+            return l2;
+        } 
         ListNode* prev = NULL;          // prev後續會記錄現在處理到的記憶體位置
         while (l1 && l2) {
             l1->val += l2->val + carry;
